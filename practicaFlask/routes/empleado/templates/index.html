@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar empleado</title>
+</head>
+<body>
+    <h1>Listado de empleado</h1>
+    <div>
+        <a href="{{url_for('appEmpleado.agregar')}}">Agregar Empleado</a>
+    </div>
+    <div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>puesto</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for empleado in empleados %}
+                    <tr>
+                        <td>{{empleado.id}}</td>
+                        <td>{{empleado.nombre_empleado}}</td>
+                        <td>{{empleado.puesto}}</td>
+                        <td><a href="editar/{{empleado.id}}">Editar</a></td>
+                        <td><a href="eliminar/{{empleado.id}}">Eliminar</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

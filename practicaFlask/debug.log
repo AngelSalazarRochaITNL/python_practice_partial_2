@@ -1,0 +1,343 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:46:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:46:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /agregar [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 25, in agregar
+    Empleado = Empleado()
+UnboundLocalError: local variable 'Empleado' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:46:28] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:47:25] "GET / HTTP/1.1" 200 -
+ERROR:app:Exception on /agregar [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 25, in agregar
+    Empleado = Empleado()
+UnboundLocalError: local variable 'Empleado' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:47:28] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /agregar [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 25, in agregar
+    Empleado = Empleado()
+UnboundLocalError: local variable 'Empleado' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:47:30] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /agregar [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 25, in agregar
+    Empleado = Empleado()
+UnboundLocalError: local variable 'Empleado' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:52:29] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on /agregar [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 25, in agregar
+    Empleado = Empleado()
+UnboundLocalError: local variable 'Empleado' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:56:09] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:56:14] "GET / HTTP/1.1" 200 -
+ERROR:app:Exception on /agregar [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 25, in agregar
+    Empleado = Empleado()
+UnboundLocalError: local variable 'Empleado' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:56:24] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:59:06] "[33mGET /editar HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:02:34] "GET / HTTP/1.1" 200 -
+ERROR:app:Exception on /editar/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 37, in editar
+    Empleado = Empleado.query.get_or_404(id)
+UnboundLocalError: local variable 'Empleado' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:02:44] "[35m[1mGET /editar/1 HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /eliminar/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 48, in eliminar
+    Empleado = Empleado.query.get_or_404(id)
+UnboundLocalError: local variable 'Empleado' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:02:47] "[35m[1mGET /eliminar/1 HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /agregar [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 25, in agregar
+    Empleado = Empleado()
+UnboundLocalError: local variable 'Empleado' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:02:53] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:03:45] "GET / HTTP/1.1" 200 -
+ERROR:app:Exception on /agregar [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 25, in agregar
+    Empleado = Empleado()
+UnboundLocalError: local variable 'Empleado' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:03:49] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:19:20] "GET / HTTP/1.1" 200 -
+ERROR:app:Exception on /editar/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 38, in editar
+    EmpleadoForm = EmpleadoForm(obj=Empleado)
+UnboundLocalError: local variable 'EmpleadoForm' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:19:23] "[35m[1mGET /editar/1 HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /agregar [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 26, in agregar
+    EmpleadoForm = EmpleadoForm(obj=Empleado)
+UnboundLocalError: local variable 'EmpleadoForm' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:19:25] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /eliminar/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 48, in eliminar
+    Empleado = Empleado.query.get_or_404(id)
+UnboundLocalError: local variable 'Empleado' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:19:27] "[35m[1mGET /eliminar/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:22:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:22:51] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:22:53] "GET /editar/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:22:56] "[32mGET /eliminar/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:22:56] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:23:00] "[33mGET /eliminar/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:23:06] "[33mGET /eliminar/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:23:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:23:10] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:23:15] "[32mPOST /agregar HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:23:16] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:24:01] "GET /index HTTP/1.1" 200 -
+ERROR:app:Exception on /agregar [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 33, in agregar
+    return render_template('agregar.html', forma = empleadoForm)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\templates\agregar.html", line 15, in top-level template code
+    {{forma.nombre_empleado.label}}<br/>
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\jinja2\environment.py", line 485, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'forms.EmpleadoForm object' has no attribute 'nombre_empleado'
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:24:03] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /agregar [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 33, in agregar
+    return render_template('agregar.html', forma = empleadoForm)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\templates\agregar.html", line 15, in top-level template code
+    {{forma.nombre_empleado.label}}<br/>
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\jinja2\environment.py", line 485, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'forms.EmpleadoForm object' has no attribute 'nombre_empleado'
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:24:07] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:24:09] "GET /editar/1 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:25:16] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:25:18] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:25:24] "[32mPOST /agregar HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:25:24] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:25:30] "[32mGET /eliminar/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:25:30] "GET /index HTTP/1.1" 200 -
+ERROR:app:Exception on /editar/2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 44, in editar
+    return render_template('editar.html',forma=empleadoForm)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\templates\editar.html", line 15, in top-level template code
+    {{forma.nombre.label}}<br/>
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\jinja2\environment.py", line 485, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'forms.EmpleadoForm object' has no attribute 'nombre'
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:25:32] "[35m[1mGET /editar/2 HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:25:58] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:00] "GET /editar/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:02] "[32mGET /eliminar/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:02] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:03] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:07] "[32mPOST /agregar HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:07] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:09] "GET /editar/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:12] "[32mPOST /editar/3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:12] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:14] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:18] "GET /editar/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:21] "[32mPOST /editar/3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:26] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:29] "[32mPOST /agregar HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:29] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:27:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:27:58] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:28:12] "GET /index HTTP/1.1" 200 -
