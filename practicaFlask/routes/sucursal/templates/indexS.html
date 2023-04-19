@@ -4,15 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agregar empleado</title>
+    <title>Agregar Sucursal</title>
 </head>
 <body>
-    <h1>Listado de empleado</h1>
+    <h1>Listado de sucursales</h1>
     <div>
-        <a href="{{url_for('appEmpleado.agregar')}}">Agregar Empleado</a>
-    </div>
-    <div>
-        <a href="{{url_for('appSucursal.inicioSucursal')}}">Ver Sucursal</a>
+        <a href="{{url_for('appSucursal.agregarS')}}">Agregar Sucursal</a>
     </div>
     <div>
         <table border="1">
@@ -20,19 +17,19 @@
                 <tr>
                     <th>ID</th>
                     <th>Nombre</th>
-                    <th>puesto</th>
+                    <th>Descripcion</th>
                     <th></th>
                     <th></th>
                 </tr>
             </thead>
             <tbody>
-                {% for empleado in empleados %}
+                {% for sucursal in sucursales %}
                     <tr>
-                        <td>{{empleado.id}}</td>
-                        <td>{{empleado.nombre_empleado}}</td>
-                        <td>{{empleado.puesto}}</td>
-                        <td><a href="editar/{{empleado.id}}">Editar</a></td>
-                        <td><a href="eliminar/{{empleado.id}}">Eliminar</a></td>
+                        <td>{{sucursal.id}}</td>
+                        <td>{{sucursal.nombre_sucursal}}</td>
+                        <td>{{sucursal.descripcion}}</td>
+                        <td><a href="editarS/{{sucursal.id}}">Editar</a></td>
+                        <td><a href="eliminarS/{{sucursal.id}}">Eliminar</a></td>
                     </tr>
                 {% endfor %}
             </tbody>

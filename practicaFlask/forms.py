@@ -8,6 +8,6 @@ class EmpleadoForm(FlaskForm):
     enviar = SubmitField('Enviar')
 
 class SucursalForm(FlaskForm):
-    nombre = StringField('Nombre', validators=[DataRequired()])
+    nombre_sucursal = StringField('Nombre', validators=[DataRequired()])
     descripcion = StringField('Descripcion', validators=[DataRequired()])
     enviar = SubmitField('Enviar')

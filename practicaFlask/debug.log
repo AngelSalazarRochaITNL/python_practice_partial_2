@@ -1,343 +1,821 @@
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:52:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:52:10] "[33mGET /empleado HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:52:14] "GET /sucursal HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:52:16] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:52:20] "[32mPOST /agregar HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:52:20] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:52:37] "GET /sucursal HTTP/1.1" 200 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:46:25] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:46:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-ERROR:app:Exception on /agregar [GET]
-Traceback (most recent call last):
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 25, in agregar
-    Empleado = Empleado()
-UnboundLocalError: local variable 'Empleado' referenced before assignment
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:46:28] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:53:36] "GET /sucursal HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:53:41] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:53:49] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:53:56] "GET /sucursal HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:53:58] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:54:02] "[32mPOST /agregar HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:54:03] "GET /empleado HTTP/1.1" 200 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:47:25] "GET / HTTP/1.1" 200 -
-ERROR:app:Exception on /agregar [GET]
-Traceback (most recent call last):
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 25, in agregar
-    Empleado = Empleado()
-UnboundLocalError: local variable 'Empleado' referenced before assignment
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:47:28] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
-ERROR:app:Exception on /agregar [GET]
-Traceback (most recent call last):
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 25, in agregar
-    Empleado = Empleado()
-UnboundLocalError: local variable 'Empleado' referenced before assignment
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:47:30] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
-ERROR:app:Exception on /agregar [GET]
-Traceback (most recent call last):
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 25, in agregar
-    Empleado = Empleado()
-UnboundLocalError: local variable 'Empleado' referenced before assignment
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:52:29] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:57:01] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:57:05] "GET /sucursal HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:57:05] "GET /sucursal HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:57:07] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:57:11] "[32mPOST /agregar HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:57:11] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:58:41] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 08:58:50] "GET /sucursal HTTP/1.1" 200 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
-ERROR:app:Exception on /agregar [GET]
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 09:01:28] "GET /sucursal HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 09:01:34] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 09:01:34] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 09:02:08] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 09:02:14] "GET /sucursal HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 09:02:18] "[33mGET /sucursal/agregar2 HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /agregar2 [GET]
 Traceback (most recent call last):
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
     response = self.full_dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
     rv = self.handle_user_exception(e)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
     rv = self.dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 25, in agregar
-    Empleado = Empleado()
-UnboundLocalError: local variable 'Empleado' referenced before assignment
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:56:09] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:56:14] "GET / HTTP/1.1" 200 -
-ERROR:app:Exception on /agregar [GET]
-Traceback (most recent call last):
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 25, in agregar
-    Empleado = Empleado()
-UnboundLocalError: local variable 'Empleado' referenced before assignment
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:56:24] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 20:59:06] "[33mGET /editar HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:02:34] "GET / HTTP/1.1" 200 -
-ERROR:app:Exception on /editar/1 [GET]
-Traceback (most recent call last):
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 37, in editar
-    Empleado = Empleado.query.get_or_404(id)
-UnboundLocalError: local variable 'Empleado' referenced before assignment
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:02:44] "[35m[1mGET /editar/1 HTTP/1.1[0m" 500 -
-ERROR:app:Exception on /eliminar/1 [GET]
-Traceback (most recent call last):
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 48, in eliminar
-    Empleado = Empleado.query.get_or_404(id)
-UnboundLocalError: local variable 'Empleado' referenced before assignment
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:02:47] "[35m[1mGET /eliminar/1 HTTP/1.1[0m" 500 -
-ERROR:app:Exception on /agregar [GET]
-Traceback (most recent call last):
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 25, in agregar
-    Empleado = Empleado()
-UnboundLocalError: local variable 'Empleado' referenced before assignment
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:02:53] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:03:45] "GET / HTTP/1.1" 200 -
-ERROR:app:Exception on /agregar [GET]
-Traceback (most recent call last):
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 25, in agregar
-    Empleado = Empleado()
-UnboundLocalError: local variable 'Empleado' referenced before assignment
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:03:49] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:19:20] "GET / HTTP/1.1" 200 -
-ERROR:app:Exception on /editar/1 [GET]
-Traceback (most recent call last):
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 38, in editar
-    EmpleadoForm = EmpleadoForm(obj=Empleado)
-UnboundLocalError: local variable 'EmpleadoForm' referenced before assignment
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:19:23] "[35m[1mGET /editar/1 HTTP/1.1[0m" 500 -
-ERROR:app:Exception on /agregar [GET]
-Traceback (most recent call last):
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 26, in agregar
-    EmpleadoForm = EmpleadoForm(obj=Empleado)
-UnboundLocalError: local variable 'EmpleadoForm' referenced before assignment
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:19:25] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
-ERROR:app:Exception on /eliminar/1 [GET]
-Traceback (most recent call last):
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 48, in eliminar
-    Empleado = Empleado.query.get_or_404(id)
-UnboundLocalError: local variable 'Empleado' referenced before assignment
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:19:27] "[35m[1mGET /eliminar/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:22:49] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:22:51] "GET /agregar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:22:53] "GET /editar/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:22:56] "[32mGET /eliminar/1 HTTP/1.1[0m" 302 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:22:56] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:23:00] "[33mGET /eliminar/1 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:23:06] "[33mGET /eliminar/1 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:23:08] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:23:10] "GET /agregar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:23:15] "[32mPOST /agregar HTTP/1.1[0m" 302 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:23:16] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:24:01] "GET /index HTTP/1.1" 200 -
-ERROR:app:Exception on /agregar [GET]
-Traceback (most recent call last):
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 33, in agregar
-    return render_template('agregar.html', forma = empleadoForm)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\templating.py", line 147, in render_template
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 26, in agregar
+    return render_template('agregar2.html', forma = sucursalForm)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
     return _render(app, template, context)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\templating.py", line 130, in _render
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
     rv = template.render(context)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
     self.environment.handle_exception()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
     raise rewrite_traceback_stack(source=source)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\templates\agregar.html", line 15, in top-level template code
-    {{forma.nombre_empleado.label}}<br/>
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\jinja2\environment.py", line 485, in getattr
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\templates\agregar2.html", line 15, in top-level template code
+    {{forma.nombre_sucursal.label}}<br/>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 485, in getattr
     return getattr(obj, attribute)
-jinja2.exceptions.UndefinedError: 'forms.EmpleadoForm object' has no attribute 'nombre_empleado'
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:24:03] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
-ERROR:app:Exception on /agregar [GET]
+jinja2.exceptions.UndefinedError: 'forms.SucursalForm object' has no attribute 'nombre_sucursal'
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 09:02:30] "[35m[1mGET /agregar2 HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 09:05:32] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 09:05:35] "GET /sucursal HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on /sucursal [GET]
 Traceback (most recent call last):
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
     response = self.full_dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
     rv = self.handle_user_exception(e)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
     rv = self.dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 33, in agregar
-    return render_template('agregar.html', forma = empleadoForm)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\templating.py", line 147, in render_template
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 13, in inicioSucursal
+    return render_template('indexSucursal.html', Sucursales = sucursales, totalDesucursales = totalDesucursales)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
     return _render(app, template, context)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\templating.py", line 130, in _render
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
     rv = template.render(context)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
     self.environment.handle_exception()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
     raise rewrite_traceback_stack(source=source)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\templates\agregar.html", line 15, in top-level template code
-    {{forma.nombre_empleado.label}}<br/>
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\jinja2\environment.py", line 485, in getattr
-    return getattr(obj, attribute)
-jinja2.exceptions.UndefinedError: 'forms.EmpleadoForm object' has no attribute 'nombre_empleado'
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:24:07] "[35m[1mGET /agregar HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:24:09] "GET /editar/1 HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:25:16] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:25:18] "GET /agregar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:25:24] "[32mPOST /agregar HTTP/1.1[0m" 302 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:25:24] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:25:30] "[32mGET /eliminar/1 HTTP/1.1[0m" 302 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:25:30] "GET /index HTTP/1.1" 200 -
-ERROR:app:Exception on /editar/2 [GET]
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\templates\indexSucursal.html", line 12, in top-level template code
+    <a href="{{url_for('appSucursal.agregar')}}">Agregar Sucursal</a>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2034, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2023, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'appSucursal.agregar'. Did you mean 'appSucursal.agregarSucursal' instead?
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 09:07:51] "[35m[1mGET /sucursal HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 09:07:53] "GET /empleado HTTP/1.1" 200 -
+ERROR:app:Exception on /sucursal [GET]
 Traceback (most recent call last):
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
     response = self.full_dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
     rv = self.handle_user_exception(e)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
     rv = self.dispatch_request()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\empleado.py", line 44, in editar
-    return render_template('editar.html',forma=empleadoForm)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\templating.py", line 147, in render_template
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 13, in inicioSucursal
+    return render_template('indexSucursal.html', Sucursales = sucursales, totalDesucursales = totalDesucursales)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
     return _render(app, template, context)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\flask\templating.py", line 130, in _render
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
     rv = template.render(context)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
     self.environment.handle_exception()
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
     raise rewrite_traceback_stack(source=source)
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\routes\empleado\templates\editar.html", line 15, in top-level template code
-    {{forma.nombre.label}}<br/>
-  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\practicaFlask\.venv\lib\site-packages\jinja2\environment.py", line 485, in getattr
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\templates\indexSucursal.html", line 12, in top-level template code
+    <a href="{{url_for('appSucursal.agregar')}}">Agregar Sucursal</a>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2034, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2023, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'appSucursal.agregar'. Did you mean 'appSucursal.agregarSucursal' instead?
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 09:07:55] "[35m[1mGET /sucursal HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:02:54] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:02:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /sucursal [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 13, in inicioSucursal
+    return render_template('indexSucursal.html', Sucursales = sucursales, totalDesucursales = totalDesucursales)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\templates\indexSucursal.html", line 12, in top-level template code
+    <a href="{{url_for('appSucursal.agregar2')}}">Agregar Sucursal</a>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2034, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2023, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'appSucursal.agregar2'. Did you mean 'appSucursal.agregarSucursal' instead?
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:03:02] "[35m[1mGET /sucursal HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /sucursal [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 13, in inicioSucursal
+    return render_template('indexSucursal.html', Sucursales = sucursales, totalDesucursales = totalDesucursales)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\templates\indexSucursal.html", line 12, in top-level template code
+    <a href="{{url_for('appSucursal.agregar2')}}">Agregar Sucursal</a>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2034, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2023, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'appSucursal.agregar2'. Did you mean 'appSucursal.agregarSucursal' instead?
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:03:02] "[35m[1mGET /sucursal HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:12:31] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:12:32] "GET /empleado HTTP/1.1" 200 -
+ERROR:app:Exception on /sucursal [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 13, in inicioSucursal
+    return render_template('indexSucursal.html', Sucursales = sucursales, totalDesucursales = totalDesucursales)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\templates\indexSucursal.html", line 12, in top-level template code
+    <a href="{{url_for('appSucursal.agregar2')}}">Agregar Sucursal</a>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2034, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2023, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'appSucursal.agregar2'. Did you mean 'appSucursal.agregarSucursal' instead?
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:12:44] "[35m[1mGET /sucursal HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on /empleado [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\empleado\empleado.py", line 18, in inicio
+    return render_template('index.html', empleados = empleados, totalDeempleados = totalDeempleados)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\empleado\templates\index.html", line 15, in top-level template code
+    <a href="{{url_for('appSucursal.indexSucursal')}}">Ver Sucursal</a>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2034, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2023, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'appSucursal.indexSucursal'. Did you mean 'appSucursal.inicioSucursal' instead?
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:13:05] "[35m[1mGET /empleado HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:13:11] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /sucursal [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 13, in inicioSucursal
+    return render_template('indexSucursal.html', Sucursales = sucursales, totalDesucursales = totalDesucursales)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\templates\indexSucursal.html", line 12, in top-level template code
+    <a href="{{url_for('appSucursal.agregar2')}}">Agregar Sucursal</a>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2034, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2023, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'appSucursal.agregar2'. Did you mean 'appSucursal.agregarSucursal' instead?
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:13:17] "[35m[1mGET /sucursal HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /sucursal [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 13, in inicioSucursal
+    return render_template('indexSucursal.html', Sucursales = sucursales, totalDesucursales = totalDesucursales)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\templates\indexSucursal.html", line 12, in top-level template code
+    <a href="{{url_for('appSucursal.agregar2')}}">Agregar Sucursal</a>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2034, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2023, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'appSucursal.agregar2'. Did you mean 'appSucursal.agregarSucursal' instead?
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:13:17] "[35m[1mGET /sucursal HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /empleado [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\empleado\empleado.py", line 18, in inicio
+    return render_template('index.html', empleados = empleados, totalDeempleados = totalDeempleados)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\empleado\templates\index.html", line 15, in top-level template code
+    <a href="{{url_for('appSucursal.indexSucursal')}}">Ver Sucursal</a>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2034, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2023, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'appSucursal.indexSucursal'. Did you mean 'appSucursal.inicioSucursal' instead?
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:13:22] "[35m[1mGET /empleado HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:16:31] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:17:56] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:18:17] "GET /empleado HTTP/1.1" 200 -
+ERROR:app:Exception on /sucursal [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 13, in inicioSucursal
+    return render_template('indexSucursal.html', Sucursales = sucursales, totalDeSucursales = totalDesucursales)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\templates\indexSucursal.html", line 12, in top-level template code
+    <a href="{{url_for('appSucursal.agregar2')}}">Agregar Sucursal</a>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2034, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2023, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'appSucursal.agregar2'. Did you mean 'appSucursal.agregarSucursal' instead?
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:18:18] "[35m[1mGET /sucursal HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:19:27] "[33mGET /sucursal/agregar2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:19:31] "[33mGET /sucursal/agregar HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:32:40] "[33mGET /sucursal HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:32:40] "[33mGET /sucursal HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:32:43] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:32:50] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:32:51] "GET /empleado HTTP/1.1" 200 -
+ERROR:app:Exception on /indexs [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 13, in inicioSucursal
+    return render_template('indexSucursal.html', sucursales = sucursales, totalDeSucursales = totalDesucursales)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\templates\indexSucursal.html", line 12, in top-level template code
+    <a href="{{url_for('appSucursal.agregar2')}}">Agregar Sucursal</a>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2034, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2023, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'appSucursal.agregar2'. Did you mean 'appSucursal.agregarSucursal' instead?
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:32:53] "[35m[1mGET /indexs HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /indexs [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 13, in inicioSucursal
+    return render_template('indexSucursal.html', sucursales = sucursales, totalDeSucursales = totalDesucursales)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\templates\indexSucursal.html", line 12, in top-level template code
+    <a href="{{url_for('appSucursal.agregar2')}}">Agregar Sucursal</a>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2034, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2023, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'appSucursal.agregar2'. Did you mean 'appSucursal.agregarSucursal' instead?
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:34:43] "[35m[1mGET /indexs HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:34:45] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:34:47] "GET /editar/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:34:49] "[32mGET /eliminar/3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:34:49] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:37:32] "GET /empleado HTTP/1.1" 200 -
+ERROR:app:Exception on /indexs [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 13, in inicioSucursal
+    return render_template('indexSucursal.html', sucursales = sucursales, totalDeSucursales = totalDesucursales)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\templates\indexSucursal.html", line 12, in top-level template code
+    <a href="{{url_for('appSucursal.agregar2')}}">Agregar Sucursal</a>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2034, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2023, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'appSucursal.agregar2'. Did you mean 'appSucursal.agregarSucursal' instead?
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:37:33] "[35m[1mGET /indexs HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on /indexs [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 13, in inicioSucursal
+    return render_template('indexS.html', sucursales = sucursales, totalDeSucursales = totalDesucursales)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\templates\indexS.html", line 12, in top-level template code
+    <a href="{{url_for('appSucursal.agregar2')}}">Agregar Sucursal</a>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2034, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2023, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'appSucursal.agregar2'. Did you mean 'appSucursal.agregarSucursal' instead?
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:38:34] "[35m[1mGET /indexs HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /indexs [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 13, in inicioSucursal
+    return render_template('indexS.html', sucursales = sucursales, totalDeSucursales = totalDesucursales)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\templates\indexS.html", line 12, in top-level template code
+    <a href="{{url_for('appSucursal.agregar2')}}">Agregar Sucursal</a>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2034, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2023, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'appSucursal.agregar2'. Did you mean 'appSucursal.agregarSucursal' instead?
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:38:36] "[35m[1mGET /indexs HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on /indexs [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 13, in inicioSucursal
+    return render_template('indexS.html', sucursales = sucursales, totalDeSucursales = totalDesucursales)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\templates\indexS.html", line 12, in top-level template code
+    <a href="{{url_for('appSucursal.agregar2')}}">Agregar Sucursal</a>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2034, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2023, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'appSucursal.agregar2'. Did you mean 'appSucursal.agregarS' instead?
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:40:07] "[35m[1mGET /indexs HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /indexs [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 13, in inicioSucursal
+    return render_template('indexS.html', sucursales = sucursales, totalDeSucursales = totalDesucursales)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\templates\indexS.html", line 12, in top-level template code
+    <a href="{{url_for('appSucursal.agregar2')}}">Agregar Sucursal</a>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2034, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2023, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'appSucursal.agregar2'. Did you mean 'appSucursal.agregarS' instead?
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:40:09] "[35m[1mGET /indexs HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:40:47] "GET /indexs HTTP/1.1" 200 -
+ERROR:app:Exception on /agregarS [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 26, in agregarS
+    return render_template('agregarS.html', forma = sucursalForm)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\templates\agregarS.html", line 15, in top-level template code
+    {{forma.nombre_sucursal.label}}<br/>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 485, in getattr
     return getattr(obj, attribute)
-jinja2.exceptions.UndefinedError: 'forms.EmpleadoForm object' has no attribute 'nombre'
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:25:32] "[35m[1mGET /editar/2 HTTP/1.1[0m" 500 -
+jinja2.exceptions.UndefinedError: 'forms.SucursalForm object' has no attribute 'nombre_sucursal'
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:40:49] "[35m[1mGET /agregarS HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:40:53] "GET /indexs HTTP/1.1" 200 -
+ERROR:app:Exception on /agregarS [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 26, in agregarS
+    return render_template('agregarS.html', forma = sucursalForm)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\templates\agregarS.html", line 15, in top-level template code
+    {{forma.nombre_sucursal.label}}<br/>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 485, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'forms.SucursalForm object' has no attribute 'nombre_sucursal'
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:41:11] "[35m[1mGET /agregarS HTTP/1.1[0m" 500 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:25:58] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:00] "GET /editar/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:02] "[32mGET /eliminar/2 HTTP/1.1[0m" 302 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:02] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:03] "GET /agregar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:07] "[32mPOST /agregar HTTP/1.1[0m" 302 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:07] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:09] "GET /editar/3 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:12] "[32mPOST /editar/3 HTTP/1.1[0m" 302 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:12] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:14] "GET /agregar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:18] "GET /editar/3 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:21] "[32mPOST /editar/3 HTTP/1.1[0m" 302 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:21] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:26] "GET /agregar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:29] "[32mPOST /agregar HTTP/1.1[0m" 302 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:26:29] "GET /index HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:27:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:41:43] "GET /indexs HTTP/1.1" 200 -
+ERROR:app:Exception on /agregarS [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 26, in agregarS
+    return render_template('agregarS.html', forma = sucursalForm)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\templates\agregarS.html", line 19, in top-level template code
+    {{forma.descipcion.label}}<br/>
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 485, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'forms.SucursalForm object' has no attribute 'descipcion'
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:41:44] "[35m[1mGET /agregarS HTTP/1.1[0m" 500 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:27:58] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:42:46] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:42:47] "GET /agregarS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:42:50] "[32mPOST /agregarS HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:42:50] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:42:53] "[33mGET /editar/1 HTTP/1.1[0m" 404 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Apr/2023 21:28:12] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:43:31] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:43:32] "[33mGET /editar/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:44:55] "[33mGET /editar/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:46:01] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:46:02] "[33mGET /editar/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:47:08] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:47:10] "[33mGET /editar/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:47:12] "GET /agregarS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:47:17] "[32mPOST /agregarS HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:47:18] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:47:19] "[33mGET /editar/2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:50:29] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:50:30] "[33mGET /editarS.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:50:34] "[33mGET /editarS.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:51:05] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:51:05] "GET /editarS/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:51:09] "[32mPOST /editarS/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:51:10] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:51:12] "[33mGET /eliminar/2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:52:14] "GET /indexs HTTP/1.1" 200 -
+ERROR:app:Exception on /eliminarS/2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USUARIO LENOVO\Desktop\10° semestre\Programacion multiparadigma\python_practice_partial_2\practicaFlask\routes\sucursal\sucursal.py", line 44, in eliminarS
+    return redirect(url_for('appSucursal.inicio'))
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\helpers.py", line 256, in url_for
+    return current_app.url_for(
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2034, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2023, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\USUARIO LENOVO\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'appSucursal.inicio'. Did you mean 'appSucursal.inicioSucursal' instead?
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:52:15] "[35m[1mGET /eliminarS/2 HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:52:57] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:52:59] "GET /agregarS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:53:03] "[32mPOST /agregarS HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:53:03] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:53:05] "[32mGET /eliminarS/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:53:05] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:53:35] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:53:36] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:54:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:54:24] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:54:32] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:54:34] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:54:51] "[32mGET /eliminar/4 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:54:51] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:54:52] "[32mGET /eliminar/6 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:54:52] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:54:54] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:54:57] "[32mPOST /agregar HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:54:57] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:54:59] "GET /editar/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:55:02] "[32mPOST /editar/7 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:55:02] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:55:05] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:55:06] "GET /agregarS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:55:09] "[32mPOST /agregarS HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:55:09] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:55:11] "GET /editarS/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:55:16] "[32mPOST /editarS/4 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:55:16] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:55:19] "[32mGET /eliminarS/3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:55:19] "GET /indexs HTTP/1.1" 200 -

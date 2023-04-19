@@ -12,6 +12,7 @@ appEmpleado = Blueprint('appEmpleado',__name__,template_folder="templates")
 ## empleados
 @appEmpleado.route('/')
 @appEmpleado.route('/index')
+@appEmpleado.route('/empleado')
 def inicio():
     empleados = Empleado.query.all()
     totalDeempleados = Empleado.query.count()
