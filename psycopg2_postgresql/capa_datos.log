@@ -1,0 +1,183 @@
+04:54:48 PM: DEBUG [$(filename)s] :10 Entra with
+04:54:48 PM: DEBUG [$(filename)s] :27 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001996244C820>
+04:54:48 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x0000019962434F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+04:54:48 PM: DEBUG [$(filename)s] :16 Sale with
+04:54:48 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x0000019962434F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+04:54:48 PM: DEBUG [$(filename)s] :10 Entra with
+04:54:48 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x0000019962434F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+04:54:48 PM: DEBUG [$(filename)s] :16 Sale with
+04:54:48 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x0000019962434F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+04:54:48 PM: DEBUG [$(filename)s] :50 Empleados Agregadas: 1
+04:54:48 PM: DEBUG [$(filename)s] :10 Entra with
+04:54:48 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x0000019962434F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+04:54:48 PM: DEBUG [$(filename)s] :16 Sale with
+04:54:48 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x0000019962434F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+04:54:48 PM: DEBUG [$(filename)s] :54 <class 'Empleado.Empleado'>
+04:54:48 PM: DEBUG [$(filename)s] :54 <class 'Empleado.Empleado'>
+04:54:48 PM: DEBUG [$(filename)s] :54 <class 'Empleado.Empleado'>
+04:54:48 PM: DEBUG [$(filename)s] :54 <class 'Empleado.Empleado'>
+04:54:48 PM: DEBUG [$(filename)s] :54 <class 'Empleado.Empleado'>
+04:54:48 PM: DEBUG [$(filename)s] :54 <class 'Empleado.Empleado'>
+05:10:08 PM: DEBUG [$(filename)s] :10 Entra with
+05:10:08 PM: DEBUG [$(filename)s] :27 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001CBDC35C790>
+05:10:08 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x000001CBDC348F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:10:08 PM: DEBUG [$(filename)s] :16 Sale with
+05:10:09 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x000001CBDC348F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:10:55 PM: DEBUG [$(filename)s] :10 Entra with
+05:10:56 PM: DEBUG [$(filename)s] :27 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001AA47C4C7C0>
+05:10:56 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x000001AA47C38F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:10:56 PM: DEBUG [$(filename)s] :16 Sale with
+05:10:56 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x000001AA47C38F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:11:29 PM: DEBUG [$(filename)s] :10 Entra with
+05:11:29 PM: DEBUG [$(filename)s] :27 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x0000022B47ADC7C0>
+05:11:29 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x0000022B47AC8F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:11:29 PM: DEBUG [$(filename)s] :16 Sale with
+05:11:29 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x0000022B47AC8F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:22:07 PM: DEBUG [$(filename)s] :10 Entra with
+05:22:07 PM: DEBUG [$(filename)s] :27 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x00000286F7D8C7C0>
+05:22:07 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x00000286F7D74F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:22:07 PM: DEBUG [$(filename)s] :16 Sale with
+05:22:07 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x00000286F7D74F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:22:07 PM: DEBUG [$(filename)s] :10 Entra with
+05:22:07 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x00000286F7D74F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:22:07 PM: DEBUG [$(filename)s] :16 Sale with
+05:22:07 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x00000286F7D74F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:22:07 PM: DEBUG [$(filename)s] :50 Archivos Agregados: 1
+05:22:07 PM: DEBUG [$(filename)s] :10 Entra with
+05:22:07 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x00000286F7D74F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:22:07 PM: DEBUG [$(filename)s] :16 Sale with
+05:22:07 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x00000286F7D74F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:24:18 PM: DEBUG [$(filename)s] :10 Entra with
+05:24:18 PM: DEBUG [$(filename)s] :27 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x0000014F724CC7C0>
+05:24:18 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x0000014F724B8F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:24:18 PM: DEBUG [$(filename)s] :16 Sale with
+05:24:18 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x0000014F724B8F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:25:07 PM: DEBUG [$(filename)s] :10 Entra with
+05:25:07 PM: DEBUG [$(filename)s] :27 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x00000199276BC7C0>
+05:25:07 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x00000199276A4F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:25:07 PM: DEBUG [$(filename)s] :16 Sale with
+05:25:07 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x00000199276A4F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:25:07 PM: DEBUG [$(filename)s] :10 Entra with
+05:25:07 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x00000199276A4F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:25:07 PM: DEBUG [$(filename)s] :16 Sale with
+05:25:07 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x00000199276A4F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:25:07 PM: DEBUG [$(filename)s] :50 Archivos Agregados: 1
+05:25:07 PM: DEBUG [$(filename)s] :10 Entra with
+05:25:07 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x00000199276A4F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:25:07 PM: DEBUG [$(filename)s] :16 Sale with
+05:25:07 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x00000199276A4F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:26:34 PM: DEBUG [$(filename)s] :10 Entra with
+05:26:34 PM: DEBUG [$(filename)s] :27 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000002287C4DC7C0>
+05:26:34 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x000002287C4C4F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:26:34 PM: DEBUG [$(filename)s] :16 Sale with
+05:26:34 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x000002287C4C4F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:26:34 PM: DEBUG [$(filename)s] :10 Entra with
+05:26:34 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x000002287C4C4F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:26:34 PM: DEBUG [$(filename)s] :16 Sale with
+05:26:34 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x000002287C4C4F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:26:34 PM: DEBUG [$(filename)s] :50 Archivos Agregados: 1
+05:26:34 PM: DEBUG [$(filename)s] :10 Entra with
+05:26:34 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x000002287C4C4F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:26:34 PM: DEBUG [$(filename)s] :16 Sale with
+05:26:34 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x000002287C4C4F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:26:34 PM: DEBUG [$(filename)s] :54 
+        Archivo : 1, Nombre: ACTA DE NACIMIENTO
+        
+05:26:34 PM: DEBUG [$(filename)s] :54 
+        Archivo : 2, Nombre: RFC
+        
+05:26:34 PM: DEBUG [$(filename)s] :54 
+        Archivo : 3, Nombre: CURP
+        
+05:26:34 PM: DEBUG [$(filename)s] :54 
+        Archivo : 4, Nombre: COMPORBANTE DE DOMICILIO
+        
+05:26:34 PM: DEBUG [$(filename)s] :54 
+        Archivo : 5, Nombre: CONSTANCIA DE ESTUDIOS
+        
+05:26:34 PM: DEBUG [$(filename)s] :54 
+        Archivo : 6, Nombre: ANTIDOPING
+        
+05:27:44 PM: DEBUG [$(filename)s] :10 Entra with
+05:27:44 PM: DEBUG [$(filename)s] :27 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001C67EDFC7F0>
+05:27:44 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x000001C67EDE4F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:27:44 PM: DEBUG [$(filename)s] :16 Sale with
+05:27:44 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x000001C67EDE4F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:27:44 PM: DEBUG [$(filename)s] :10 Entra with
+05:27:44 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x000001C67EDE4F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:27:44 PM: DEBUG [$(filename)s] :16 Sale with
+05:27:44 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x000001C67EDE4F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:27:44 PM: DEBUG [$(filename)s] :50 Empleados Agregadas: 1
+05:27:44 PM: DEBUG [$(filename)s] :10 Entra with
+05:27:44 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x000001C67EDE4F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:27:44 PM: DEBUG [$(filename)s] :16 Sale with
+05:27:44 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x000001C67EDE4F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:27:44 PM: DEBUG [$(filename)s] :54 
+        Id empleado: 1, Nombre: Rocha, Puesto: DevOp
+        
+05:27:44 PM: DEBUG [$(filename)s] :54 
+        Id empleado: 2, Nombre: Angel Salazar, Puesto: DevOp
+        
+05:27:44 PM: DEBUG [$(filename)s] :54 
+        Id empleado: 3, Nombre: Oscar, Puesto: Developer
+        
+05:27:44 PM: DEBUG [$(filename)s] :54 
+        Id empleado: 4, Nombre: Jesus, Puesto: Manager
+        
+05:27:44 PM: DEBUG [$(filename)s] :54 
+        Id empleado: 5, Nombre: Rogers, Puesto: Manager
+        
+05:27:44 PM: DEBUG [$(filename)s] :54 
+        Id empleado: 6, Nombre: Steve, Puesto: Developer
+        
+05:27:44 PM: DEBUG [$(filename)s] :54 
+        Id empleado: 7, Nombre: Angel, Puesto: Administrador
+        
+05:27:44 PM: DEBUG [$(filename)s] :54 
+        Id empleado: 8, Nombre: Ricardo, Puesto: Contador
+        
+05:55:49 PM: DEBUG [$(filename)s] :10 Entra with
+05:55:49 PM: DEBUG [$(filename)s] :27 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001CF59FBC7F0>
+05:55:49 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x000001CF59FA8F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:55:49 PM: DEBUG [$(filename)s] :16 Sale with
+05:55:49 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x000001CF59FA8F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:56:35 PM: DEBUG [$(filename)s] :10 Entra with
+05:56:35 PM: DEBUG [$(filename)s] :27 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000001E5E985C7F0>
+05:56:35 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x000001E5E9844F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:56:35 PM: DEBUG [$(filename)s] :16 Sale with
+05:56:35 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x000001E5E9844F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:56:35 PM: DEBUG [$(filename)s] :10 Entra with
+05:56:35 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x000001E5E9844F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:56:35 PM: DEBUG [$(filename)s] :16 Sale with
+05:56:35 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x000001E5E9844F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:56:35 PM: DEBUG [$(filename)s] :51 Archivos subidos: 1
+05:56:35 PM: DEBUG [$(filename)s] :10 Entra with
+05:56:35 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x000001E5E9844F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:56:35 PM: DEBUG [$(filename)s] :16 Sale with
+05:56:35 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x000001E5E9844F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:57:20 PM: DEBUG [$(filename)s] :10 Entra with
+05:57:20 PM: DEBUG [$(filename)s] :27 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x000002BBE885C7F0>
+05:57:20 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x000002BBE8844F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:57:20 PM: DEBUG [$(filename)s] :16 Sale with
+05:57:20 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x000002BBE8844F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:57:20 PM: DEBUG [$(filename)s] :10 Entra with
+05:57:20 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x000002BBE8844F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:57:20 PM: DEBUG [$(filename)s] :16 Sale with
+05:57:20 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x000002BBE8844F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:57:20 PM: DEBUG [$(filename)s] :51 Archivos subidos: 1
+05:57:20 PM: DEBUG [$(filename)s] :10 Entra with
+05:57:20 PM: DEBUG [$(filename)s] :37 Conexion obtenida <connection object at 0x000002BBE8844F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:57:20 PM: DEBUG [$(filename)s] :16 Sale with
+05:57:20 PM: DEBUG [$(filename)s] :43 Conexion regresada <connection object at 0x000002BBE8844F20; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:57:20 PM: DEBUG [$(filename)s] :56 
+        Tipo Archivo : 1, Empleado : 1, Archivo: expedientes/rocha, Ruta : acta_rocha.pdf
+        
+05:57:20 PM: DEBUG [$(filename)s] :56 
+        Tipo Archivo : 1, Empleado : 1, Archivo: expedientes/rocha, Ruta : acta_rocha.pdf
+        
+05:57:20 PM: DEBUG [$(filename)s] :56 
+        Tipo Archivo : 2, Empleado : 1, Archivo: expedientes/rocha, Ruta : rfc_rocha.pdf
+        
+05:57:20 PM: DEBUG [$(filename)s] :56 
+        Tipo Archivo : 2, Empleado : 1, Archivo: expedientes/rocha, Ruta : rfc_rocha.pdf
+        

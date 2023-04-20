@@ -12,10 +12,10 @@ class Empleado:
         """
     
     @property
-    def idEmpleado(self):
+    def id_empleado(self):
         return self._id_empleado
-    @idEmpleado.setter
-    def idEmpleado(self, id_empleado):
+    @id_empleado.setter
+    def id_empleado(self, id_empleado):
         self._id_empleado = id_empleado
 
     @property
