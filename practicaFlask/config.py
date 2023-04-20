@@ -1,9 +1,9 @@
 class BasicConfig:
         
     USER_DB='postgres'
-    PASS_DB='1234'
+    PASS_DB='Yon1thek1'
     URL_DB='localhost'
-    NAME_DB='evaluacion_empleado'
+    NAME_DB='eval_emp_flask'
     FULL_URL_DB=f'postgresql://{USER_DB}:{PASS_DB}@{URL_DB}/{NAME_DB}'
 
     SQLALCHEMY_DATABASE_URI= FULL_URL_DB

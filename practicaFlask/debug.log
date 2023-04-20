@@ -819,3 +819,41 @@ INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:55:16] "[32mPOST /editarS/4 HTTP/1.
 INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:55:16] "GET /indexs HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:55:19] "[32mGET /eliminarS/3 HTTP/1.1[0m" 302 -
 INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 10:55:19] "GET /indexs HTTP/1.1" 200 -
+ERROR:flask_migrate:Error: Directory migrations already exists and is not empty
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:33:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:33:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:33:42] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:33:48] "[32mPOST /agregar HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:33:49] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:33:51] "GET /editar/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:34:02] "[32mPOST /editar/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:34:02] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:34:04] "[32mGET /eliminar/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:34:04] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:34:05] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:34:07] "GET /agregarS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:34:34] "[32mPOST /agregarS HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:34:35] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:34:39] "GET /editarS/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:35:25] "[32mPOST /editarS/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:35:25] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:35:37] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:35:39] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:36:02] "[32mPOST /agregar HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:36:03] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:36:06] "GET /editar/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:36:20] "[32mPOST /editar/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:36:20] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:36:23] "[32mGET /eliminar/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:36:23] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:36:27] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:36:34] "[32mPOST /agregar HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:36:34] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:36:55] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:39:50] "[32mGET /eliminarS/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:39:50] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:39:54] "[32mGET /eliminar/3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:39:54] "GET /empleado HTTP/1.1" 200 -

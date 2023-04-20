@@ -10,12 +10,14 @@ conexion = psycopg2.connect(user="postgres",
 try:
     conexion.autocommit=False
     cursor = conexion.cursor()
-    sentencia = "INSERT INTO persona(nombre) Values(%s)"
+    sentencia = "INSERT INTO empleado(idempleado, nombre, puesto) Values(%s,%s,%s)"
+    idempleado = 2
     nombre="Rocha"
-    valores=(nombre,)
+    puesto="DevOp"
+    valores=(idempleado,nombre,puesto)
     cursor.execute(sentencia, valores)
     log.debug("insert")
-    sentencia="UPDATE persona SET nombre =%s WHERE idpersona=%s"
+    sentencia="UPDATE empleado SET nombre =%s WHERE idempleado=%s"
     valores=("Angel Salazar",2)
     cursor.execute(sentencia,valores)
     log.debug("Sentencia update")
@@ -27,6 +29,6 @@ except Exception as e:
 
 
 cursor = conexion.cursor()
-cursor.execute("SELECT nombre FROM Persona")
+cursor.execute("SELECT nombre FROM empleado")
 resultados = cursor.fetchall()
 print(resultados)

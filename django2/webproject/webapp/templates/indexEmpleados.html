@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="main-wrapper" id="main-app">
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="top-left">
+                <a href="#"> 
+                    Hi there!
+                </a>
+            </div>
+
+            <div class="col-8">
+                <h1 class="text-light">
+                    Employees of Employee Company, Inc</h1>
+            </div>
+            
+            <div class="top-right">
+                <h3 class="text-light">Welcome!</h3>
+                <p>
+                    <a href="#">LOGOUT</a>
+                </p>   
+            </div>
+        </nav>
+    </div>
+
+    <div class="container col-10 justify-content-center" style="margin-top: 50px;">
+        <div class="row justify-content-center">
+            <h3>Employees</h3>
+        </div>
+    
+        <div class="form-group col-10">
+            <table class="form-table table-striped">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Puesto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for empleado in formaEmpleados %}
+                    <tr>
+                        <td>{{empleado.nombre}}</td>
+                        <td>{{empleado.puesto}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="row justify-content-center">
+            <h3>Expediente</h3>
+        </div>
+    
+        <div class="form-group col-10">
+            <table class="form-table table-striped">
+                <thead>
+                    <tr>
+                        <th>Tipo Archivo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for archivo in formaArchivo %}
+                    <tr>
+                        <td>{{archivo.nombre}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="row justify-content-center">
+            <h3>Files of employees</h3>
+        </div>
+    
+        <div class="form-group col-10">
+            <table class="form-table table-striped">
+                <thead>
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Archivo</th>
+                        <th>ruta</th>
+                        <th>empleado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for archivo_e in formaArchivo_empleado %}
+                    <tr>
+                        <td>{{archivo_e.archivo}}</td>
+                        <td>{{archivo_e.nombre_real}}</td>
+                        <td>{{archivo_e.ruta}}</td>
+                        <td>{{archivo_e.empleado}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

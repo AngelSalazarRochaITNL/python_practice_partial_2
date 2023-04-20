@@ -25,5 +25,5 @@ class CursorDelPool:
 
 if __name__=="__main__":
     with CursorDelPool() as cursor:
-        cursor.execute("SELECT * FROM persona")
+        cursor.execute("SELECT * FROM empleado")
         log.debug(cursor.fetchall())
