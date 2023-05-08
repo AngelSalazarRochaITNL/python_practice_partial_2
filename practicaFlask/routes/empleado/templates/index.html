@@ -5,38 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agregar empleado</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Listado de empleado</h1>
-    <div>
-        <a href="{{url_for('appEmpleado.agregar')}}">Agregar Empleado</a>
-    </div>
-    <div>
-        <a href="{{url_for('appSucursal.inicioSucursal')}}">Ver Sucursal</a>
-    </div>
-    <div>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Nombre</th>
-                    <th>puesto</th>
-                    <th></th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for empleado in empleados %}
+    <div class="container col-10 justify-content-center" style="margin-top: 50px;">
+        <div class="row justify-content-center">
+            <h1>Listado de empleado</h1>
+        </div>
+
+        <div>
+            <a href="{{url_for('appEmpleado.agregar')}}">Agregar Empleado</a>
+        </div>
+        <div>
+            <a href="{{url_for('appSucursal.inicioSucursal')}}">Ver Sucursal</a>
+        </div>
+        <div>
+            <table class="form-table table-striped">
+                <thead>
                     <tr>
-                        <td>{{empleado.id}}</td>
-                        <td>{{empleado.nombre_empleado}}</td>
-                        <td>{{empleado.puesto}}</td>
-                        <td><a href="editar/{{empleado.id}}">Editar</a></td>
-                        <td><a href="eliminar/{{empleado.id}}">Eliminar</a></td>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>puesto</th>
+                        <th></th>
+                        <th></th>
                     </tr>
-                {% endfor %}
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                    {% for empleado in empleados %}
+                        <tr>
+                            <td>{{empleado.id}}</td>
+                            <td>{{empleado.nombre_empleado}}</td>
+                            <td>{{empleado.puesto}}</td>
+                            <td><a href="editar/{{empleado.id}}">Editar</a></td>
+                            <td><a href="eliminar/{{empleado.id}}">Eliminar</a></td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
     </div>
 </body>
 </html>

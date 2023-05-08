@@ -857,3 +857,44 @@ INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:39:50] "[32mGET /eliminarS/1 HTTP/1
 INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:39:50] "GET /indexs HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:39:54] "[32mGET /eliminar/3 HTTP/1.1[0m" 302 -
 INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 17:39:54] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 18:46:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 18:46:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 18:46:24] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 18:46:36] "[32mPOST /agregar HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 18:46:36] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 18:46:39] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 18:46:50] "[32mPOST /agregar HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 18:46:50] "GET /empleado HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 18:56:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 18:56:38] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 18:56:40] "GET /agregarS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 18:56:47] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 18:58:38] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 18:58:39] "GET /agregarS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 18:58:51] "[32mPOST /agregarS HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 18:58:51] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 19:45:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 19:34:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 19:34:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 19:34:54] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 20:43:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 20:43:08] "GET /editar/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 20:43:12] "GET /agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 20:43:14] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 20:43:15] "GET /editarS/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2023 20:43:17] "GET /agregarS HTTP/1.1" 200 -

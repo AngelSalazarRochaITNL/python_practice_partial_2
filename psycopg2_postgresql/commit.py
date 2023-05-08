@@ -17,7 +17,7 @@ try:
     valores=(idempleado,nombre,puesto)
     cursor.execute(sentencia, valores)
     log.debug("insert")
-    sentencia="UPDATE empleado SET nombre =%s WHERE idempleado=%s"
+    sentencia="UPDATE empleado SET nombre =%s WHERE id_empleado=%s"
     valores=("Angel Salazar",2)
     cursor.execute(sentencia,valores)
     log.debug("Sentencia update")
